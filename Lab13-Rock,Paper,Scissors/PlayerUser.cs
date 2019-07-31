@@ -18,6 +18,7 @@ namespace Lab13_Rock_Paper_Scissors
         #endregion
         public override Roshambo GenerateRoshambo()
         {
+            Console.WriteLine($"\nChoose one:\n\t1.{Roshambo.rock}\n\t2.{Roshambo.paper}\n\t3.{Roshambo.scissors}");
             string input = Console.ReadLine();
             if (int.TryParse(input, out int num))
             {

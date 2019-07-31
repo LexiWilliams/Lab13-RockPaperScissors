@@ -53,31 +53,6 @@ namespace Lab13_Rock_Paper_Scissors
                 return ChooseOpponent(message, list);
             }
         }
-        public static void ChooseRoshambo(PlayerUser user)
-        {
-            Console.WriteLine($"\nChoose one:\n\t1.{Roshambo.rock}\n\t2.{Roshambo.paper}\n\t3.{Roshambo.scissors}");
-            string input = Console.ReadLine();
-            if (int.TryParse(input, out int num))
-            {
-                if (num == 1)
-                {
-                    user.Roshambo = Roshambo.rock;
-                }
-                else if (num == 2)
-                {
-                    user.Roshambo = Roshambo.paper;
-                }
-                else if (num == 3)
-                {
-                    user.Roshambo = Roshambo.scissors;
-                }
-                else
-                {
-                    Console.WriteLine("That isn't an option.");
-                    ChooseRoshambo(user);
-                }
-            }
-        }
         public static bool PlayAgain(string message)
         {
             Console.WriteLine(message);
