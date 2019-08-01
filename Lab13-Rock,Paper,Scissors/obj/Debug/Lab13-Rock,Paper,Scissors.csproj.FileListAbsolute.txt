@@ -5,3 +5,10 @@ C:\Users\lexas\OneDrive\Desktop\C#\Week 3\Lab13-Rock,Paper,Scissors\Lab13-Rock,P
 C:\Users\lexas\OneDrive\Desktop\C#\Week 3\Lab13-Rock,Paper,Scissors\Lab13-Rock,Paper,Scissors\obj\Debug\Lab13-Rock,Paper,Scissors.csproj.CoreCompileInputs.cache
 C:\Users\lexas\OneDrive\Desktop\C#\Week 3\Lab13-Rock,Paper,Scissors\Lab13-Rock,Paper,Scissors\obj\Debug\Lab13-Rock,Paper,Scissors.exe
 C:\Users\lexas\OneDrive\Desktop\C#\Week 3\Lab13-Rock,Paper,Scissors\Lab13-Rock,Paper,Scissors\obj\Debug\Lab13-Rock,Paper,Scissors.pdb
+C:\Users\lexas\OneDrive\Desktop\C#\Week 3\Labs\Lab13-Rock,Paper,Scissors\Lab13-Rock,Paper,Scissors\bin\Debug\Lab13-Rock,Paper,Scissors.exe.config
+C:\Users\lexas\OneDrive\Desktop\C#\Week 3\Labs\Lab13-Rock,Paper,Scissors\Lab13-Rock,Paper,Scissors\bin\Debug\Lab13-Rock,Paper,Scissors.exe
+C:\Users\lexas\OneDrive\Desktop\C#\Week 3\Labs\Lab13-Rock,Paper,Scissors\Lab13-Rock,Paper,Scissors\bin\Debug\Lab13-Rock,Paper,Scissors.pdb
+C:\Users\lexas\OneDrive\Desktop\C#\Week 3\Labs\Lab13-Rock,Paper,Scissors\Lab13-Rock,Paper,Scissors\obj\Debug\Lab13-Rock,Paper,Scissors.csprojAssemblyReference.cache
+C:\Users\lexas\OneDrive\Desktop\C#\Week 3\Labs\Lab13-Rock,Paper,Scissors\Lab13-Rock,Paper,Scissors\obj\Debug\Lab13-Rock,Paper,Scissors.csproj.CoreCompileInputs.cache
+C:\Users\lexas\OneDrive\Desktop\C#\Week 3\Labs\Lab13-Rock,Paper,Scissors\Lab13-Rock,Paper,Scissors\obj\Debug\Lab13-Rock,Paper,Scissors.exe
+C:\Users\lexas\OneDrive\Desktop\C#\Week 3\Labs\Lab13-Rock,Paper,Scissors\Lab13-Rock,Paper,Scissors\obj\Debug\Lab13-Rock,Paper,Scissors.pdb

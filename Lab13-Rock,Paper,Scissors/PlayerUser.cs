@@ -8,11 +8,14 @@ namespace Lab13_Rock_Paper_Scissors
 {
     class PlayerUser : Player
     {
+        public int Losses { get; set; }
+        public int Wins { get; set; }
+        public int Ties { get; set; }
         #region Constructors
 
         public PlayerUser()
         {
-           
+
         }
 
         #endregion
@@ -26,7 +29,7 @@ namespace Lab13_Rock_Paper_Scissors
                 {
                     return Roshambo.rock;
                 }
-                else if(num==2)
+                else if (num == 2)
                 {
                     return Roshambo.paper;
                 }
@@ -35,8 +38,8 @@ namespace Lab13_Rock_Paper_Scissors
                     return Roshambo.scissors;
                 }
             }
-                Console.WriteLine("That isn't an option.");
-                return GenerateRoshambo();
+            Console.WriteLine("That isn't an option.");
+            return GenerateRoshambo();
         }
     }
 }

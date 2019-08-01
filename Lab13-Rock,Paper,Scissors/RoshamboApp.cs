@@ -16,11 +16,11 @@ namespace Lab13_Rock_Paper_Scissors
                         new PlayerRandom(),
                     };
             int opponentIndex = Validator.ChooseOpponent("Choose your opponent: ", opponents);
-            //Validator.ChooseRoshambo(user);
             user.Roshambo = user.GenerateRoshambo();
             Methods.PrintRoshambo(opponentIndex, opponents, user);
             Methods.CompareRoshambo(opponents, user, opponentIndex);
             Console.WriteLine($"You have played {count} game of Rock Paper Scissors!");
+            Console.WriteLine($"You have:\n{user.Wins} Wins\n{user.Losses} Losses\n{user.Ties} Ties");
         }
     }
 }

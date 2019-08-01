@@ -19,30 +19,37 @@ namespace Lab13_Rock_Paper_Scissors
             if (list[opponentIndex].Roshambo == user.Roshambo)
             {
                 Console.WriteLine("Draw!");
+                user.Ties++;
             }
             else if (list[opponentIndex].Roshambo == Roshambo.rock && user.Roshambo == Roshambo.paper)  //rock 0 paper 1
             {
                 Console.WriteLine($"{user.Name} wins!");
+                user.Wins++;
             }
             else if(list[opponentIndex].Roshambo == Roshambo.rock && user.Roshambo == Roshambo.scissors) //rock 0 scissors 2
             {
                 Console.WriteLine($"{list[opponentIndex].Name} wins!");
+                user.Losses++;
             }
             else if (list[opponentIndex].Roshambo == Roshambo.paper && user.Roshambo == Roshambo.rock) //paper 1 rock 0
             {
                 Console.WriteLine($"{list[opponentIndex].Roshambo} wins!");
+                user.Losses++;
             }
             else if(list[opponentIndex].Roshambo== Roshambo.paper && user.Roshambo == Roshambo.scissors) //paper 1 scissors 2
             {
                 Console.WriteLine($"{user.Name} wins!");
+                user.Wins++;
             }
             else if(list[opponentIndex].Roshambo== Roshambo.scissors && user.Roshambo == Roshambo.rock)//scissors 2 rock 0
             {
                 Console.WriteLine($"{user.Name} wins!");
+                user.Wins++;
             }
             else if(list[opponentIndex].Roshambo == Roshambo.scissors && user.Roshambo == Roshambo.paper) //scissors 2 paper 1
             {
                 Console.WriteLine($"{list[opponentIndex].Name} wins!");
+                user.Losses++;
             }
             Console.WriteLine("");
         }
